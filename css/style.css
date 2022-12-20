@@ -53,6 +53,7 @@ html{
     background:url(../images/pexels-cátia-matos-1072179.jpg);
     background-size:cover;
     border-radius: 10px;
+    height:100%;
 
 }
 .about .about-content{
