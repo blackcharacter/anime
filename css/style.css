@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Josefin+Sans:ital@1&family=Ubuntu&display=swap');
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .head{
+    color: bisque;
+    margin-left: 1%;
+} */
+.nav{
+    height:50px;
+    
+}
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left:0;
+    padding: 15px;
+    font-size: 20px;
+    color: rgba(255, 119, 0, 0.916);
+    margin-left: 1%;
+    font-family: 'Chivo Mono', monospace;
+}
+.nav ul{
+    position:absolute;
+    right: 5px;
+}
+.nav ul li{
+    display: inline-block;
+    
+}
+.nav li a{
+    color: whitesmoke;
+    padding: 50px;
+    text-decoration: none;
+}
+.home{
+    background: url(../images/pexels-irina-iriser-1379636.jpg);
+    background-size:cover ;
+    height: 100vh;
+    border-radius: 10px;
+}
+.home .text-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: rgb(0, 255, 242);
+
+}
+.about{
+    background:url(../images/pexels-cátia-matos-1072179.jpg);
+    background-size:cover;
+    border-radius: 10px;
+
+}
+.about .about-content{
+    margin: 150px auto 0 auto;
+    width: 500px;
+    color: white;
+}
+.about .about-content h1{
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+}
+.about .about-content p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.services{
+    background:url(../images/pexels-fox-1172675.jpg);
+    background-size: cover;
+    height: 100vh;
+    border-radius: 10px;
+}
+.services .service-container{
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+.services .service-container h1{
+    font-family: 'Chivo Mono', monospace;
+    color: rgb(251, 160, 4);
+}
+.services.service-container .card-container ul{
+    padding: 0;
+}
+.services .service-container .card-container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;    
+    width: 300px;
+}
+.services .service-container .card-container ul li img{
+    height: 200px;
+    width: 300px;
+}
+.services .service-container .card-container ul li p{
+    
+    color: rgb(255, 255, 255);
+}
+.contect{
+    background: url(../images/leaves.jpg);
+    background-size:cover;
+    height: 100%;
+    border-radius: 10px;
+}
+.contect .contect-container{
+    margin: 80px auto 0 auto;
+    text-align: center;
+    color: aliceblue;
+}
